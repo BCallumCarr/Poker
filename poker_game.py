@@ -254,7 +254,7 @@ if __name__ == "__main__":
 
   # Take input
   for i in range(number_of_players):
-    player = Player(raw_input("Your name please: "))
+    player = Player(input("Your name please: "))
     users.append(player)
 
   # Deal cards
