@@ -26,7 +26,6 @@ class Dealer:
 
     # Figure out results
     self.find_winner()
-    # self.compare_high_card(self.players)
     pass
   
   def find_winner(self):
@@ -216,12 +215,6 @@ class Player:
       return True
     else:
       return False
-    
-    # Then you could check if there 's a straight by creating a set of ranks 
-    # (which will eliminate duplicates). If the difference between the max rank
-    # and min rank plus one is equal to the size of the set
-    # and the set is the size of the hand, you have a straight. 
-    # It's a reduction to the pigeonhole principle.
   
   # Two Pair
   def isTwoPair(self):
